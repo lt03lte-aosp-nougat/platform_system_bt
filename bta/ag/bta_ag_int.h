@@ -30,16 +30,6 @@
 #include "bta_ag_at.h"
 #include "osi/include/log.h"
 
-/* Send RING & CLIP in one AT cmd */
-#ifndef BTA_AG_MULTI_RESULT_INCLUDED
-#define BTA_AG_MULTI_RESULT_INCLUDED      FALSE
-#endif
-
-/* Replace : in VGS and VGM for HSP */
-#ifndef BTA_HSP_RESULT_REPLACE_COLON
-#define BTA_HSP_RESULT_REPLACE_COLON      TRUE
-#endif
-
 /*****************************************************************************
 **  Constants
 *****************************************************************************/
